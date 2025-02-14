@@ -61,3 +61,19 @@ body{
     border-radius: 50px;
     box-shadow: 10px 10px 90px #f20044;
 }
+@media screen and (max-width: 600px) {
+    .heart {
+        height: 150px;
+        width: 150px;
+    }
+
+    .heart::before, .heart::after {
+        height: 150px;
+        width: 150px;
+    }
+
+    .text {
+        font-size: 30px; 
+        margin-top: 20px; 
+    }
+}
